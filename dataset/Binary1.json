@@ -1,0 +1,19 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "nicsynapse001-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ActivityLog01.csv",
+				"fileSystem": "destination"
+			}
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
